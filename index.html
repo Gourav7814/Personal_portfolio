@@ -1,0 +1,253 @@
+<html>
+    <head>
+        <title> My Personal Portfolio Website </title>
+        <link rel="stylesheet" href="style.css">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo1.1.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skill">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="heder-text">
+                    <p>Web Developer </p>
+                    <h1>Hi, I am <span>Gourav</span><br> From <span>Kolhapur...</span></h1>
+                </div>
+            </div>
+        </div>
+        <!-- ----about suru ---- -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1"> 
+                        <img src="images/user1.JPEG" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>"i am Gourav Bhivasekar and i am from kolhapur, maharashtra . 
+                            I am a passionate and driven individual with a strong foundation in  web development, data analytics.
+                             I thrive in problem-solving and continuous learning. 
+                             I am eager to contribute my skills to innovative projects and grow in a dynamic work environment."</p>
+                            
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                                <p class="tab-links" onclick="opentab('internship')">Internship</p>
+                                <p class="tab-links" onclick="opentab('hobbies')">Hobbies</p>
+                            </div>
+                            <div class="tab-contents active-tab" id="education">
+                                <ul>
+                                    <li><span>Master of Computer Applications (MCA) </span><br>Kolhapur Institute of Technology’s (KIT) IMER, Aug 2023 – Aug 2025
+                                        Completed 1st year with 71.18%
+                                         </li>
+                                    <li><span>Bachelor of Commerce in Information Technology (B.Com IT) </span><br>Rajarshi Chatrapati Shahu College, Kolhapur, Aug 2019 – Aug 2022
+                                        Percentage: 72.5%
+                                         </li>
+                                    <li><span>Higher Secondary Education (Class XII) </span><br>Rajarshi Chatrapati Shahu College,
+                                        Kolhapur, Jul 2018 – Mar 2019
+                                        Percentage: 69.6%
+                                         </li>
+                                         <li><span>Secondary Education (Class X) </span><br>Susanskar High School,
+                                            Jun 2016-Mar 2017
+                                            Percentage: 65%
+                                            
+                                             </li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="internship">
+                                <ul>
+                                    <li><span>Internship: Comptranse Technology Pvt. Ltd. Kolhapur, Maharashtra | June 2024 – August 2024</span><br>
+                                        ● Worked on the CodeIgniter framework of PHP to develop dynamic web applications.<br>
+                                        ● Contributed to creating user-friendly interfaces and ensuring robust backend functionality. </li>
+                                    
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="hobbies">
+                                <ul>
+                                    <li><span>Travelling </span><br> Traveling to explore new places. </li>
+                                    <li><span>Playing Cricket </span><br>Playing cricket for teamwork and fitness. </li>
+                                    <li><span>Blogging </span><br>Blogging to share insights and experiences. </li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- -------- skills suru -------- -->
+         <div id="skill">
+            <div class="container">
+                <h1 class="sub-title">My Skills</h1>
+                <div class="skill-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>.
+                        <h2>Web Development Skills</h2>
+                        <p> <b>* Frontend Development:</b> <br>HTML, CSS, JavaScript.<br>
+                            <b>* Backend Development:</b><br> Java, Python.<br>
+                           <b>* Database Management:</b><br>  MySQL, Oracle.<br>
+                            <b>* Tools and Technologies:</b><br> spanVisual Studio code, CodeIgniter, Bootstrap.
+                              </p>
+                            <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-square-binary"></i>
+                        
+                        <h2>Data Analytics Skills</h2>
+                        <p><b>Data Analytics libraries</b><br>
+                           <b>* Pandas :</b> <br> Data manipulation and analysis.<br>
+                            <b>* NumPy :</b><br> Numerical computing.<br>
+                            <b>* Matplotlib :</b> <br>Data visualization</p>
+                            <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-computer-classic"></i><i class="fa-brands fa-app-store"></i>
+                        <h2>Soft Skills</h2>
+                        <p><b>* Communication :</b> <br> Effectively conveys ideas and collaborates with teams.<br>
+                            <b>* Creativit :</b><br>Brings innovative ideas to problem-solving and design.<br>
+                            <b>* Time Management :</b> <br>Prioritizes tasks to meet deadlines efficiently.</p></p>
+                            <a href="#">Learn more</a>
+                    </div>
+
+                </div>
+
+            </div>
+         </div>
+         <!-- --------project suru -------- -->
+          <div id="projects">
+            <div class="container">
+                <h1 class="sub-title">My Projects</h1>
+                <div class="projects-list">
+                    <div class="project">
+                        <img src="images/work-1.png" alt="">
+                        <div class="layer">
+                            <h3>RTO Management System</h3>
+                            <p>Developed a RTO system using the HTML, CSS and Javascript. 
+                                Integrated the My SQL relational database management system into our project. 
+                                Used basics libraries of python such as numpy, matplotlib for data analytics purpose. 
+                                This experience allowed me to acquire skills I both front-end and back-end design,
+                                 report generation and establishing a robust database connection. 
+                            </p>
+                            <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+
+                    </div>
+                    <div class="project">
+                        <img src="images/work-2.jpg" alt="">
+                        <div class="layer">
+                            <h3>Online E-learning System</h3>
+                            <p>I developed an Online E-Learning Management project using Bootstrap to create a
+                                responsive and user-friendly interface. This platform enables learners to access educational resources flexibly from any location. 
+                                It enhances the learning experience with intuitive design and smooth navigation.
+                            </p>
+                            <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+
+                    </div>
+                    <div class="project">
+                        <img src="images/work-3.png" alt="">
+                        <div class="layer">
+                            <h3>Kolhapur Krushi Vibhag website</h3>
+                            <p>I have don Kolhapur krushi vibhag website using the CodeIgniter framework in PHP, alongside HTML, CSS and the Bootstrap. 
+                                Integrate the MySQL relational database management system in my project.
+                                 I used basics Libraries of CodeIgniter to developing a good design as will as user interactive interface. 
+                            </p>
+                            <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+
+            </div>
+
+          </div>
+         
+          <!-- =========== contact start ============ -->
+           <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+                        <p><i class="fa-solid fa-phone"></i>1122334455</p>
+                        <div class="social-icons">
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/gourav-bhivasekar-41894a28b, "><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="images/My_Cv.pdf" download class="btn btn1">Download CV </a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn1">Submit</button>
+                        </form>
+                        <span id="msg"> </span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Created by Mr.Gourav...</p>
+            </div>
+           </div>
+
+
+
+        <script>
+            
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove ("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove ("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+        <script>
+            var sidemenu=document.getElementById("sidemenu");
+            function openmenu(){
+                sidemenu.style.right= "0";
+                }
+                function closemenu(){
+                sidemenu.style.right= "-200px";
+                }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbwbONPpPx8Ih7hU-eMsczy-eqeb1y5IWmPOsSS7UJFCZY8ChTIFsPU7pUykA0xukahK/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg=document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML="Messege Sent Successfully..!!"
+                    setTimeout(function(){
+                        msg.innerHTML=""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+    </body>
+</html>
